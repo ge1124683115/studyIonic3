@@ -18,6 +18,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { HttpModule } from "@angular/http";
 import {IonicStorageModule} from "@ionic/storage";
 import {RegisterPage} from "../pages/register/register";
+import {UserPage} from "../pages/user/user";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {RegisterPage} from "../pages/register/register";
     MorePage,
     TabsPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    UserPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +52,8 @@ import {RegisterPage} from "../pages/register/register";
     MorePage,
     TabsPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    UserPage
   ],
   providers: [
     StatusBar,
